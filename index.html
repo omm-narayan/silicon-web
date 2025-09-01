@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,7 +19,7 @@
 
         header {
             background-color: white;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             position: relative;
             z-index: 1000;
         }
@@ -36,6 +37,7 @@
             gap: 15px;
         }
 
+        
         .logo-icon {
             width: 50px;
             height: 50px;
@@ -122,7 +124,8 @@
             border-bottom: 3px solid transparent;
         }
 
-        nav a:hover, nav a.active {
+        nav a:hover,
+        nav a.active {
             background-color: #f0f0f0;
             border-bottom-color: #2856a3;
         }
@@ -132,7 +135,7 @@
             top: 100%;
             left: 0;
             background-color: white;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             min-width: 250px;
             display: none;
             z-index: 1000;
@@ -208,10 +211,11 @@
 
         .about {
             padding: 60px 40px;
-            background-color: #f5f5f5;  
+            background-color: #f5f5f5;
             width: screen;
             height: 100vh;
         }
+
         .about-content {
             max-width: 800px;
             margin: 0 auto;
@@ -275,29 +279,32 @@
         }
     </style>
 </head>
+
 <body>
-   <header>
+    <header>
         <div class="header-top">
             <div class="logo">
                 <a href="index.html">
-                    <img src="https://silicon.ac.in/wp-content/themes/sit/assets/img/logo-7.png" style="width: auto; height: 50px;" alt="logo">
+                    <img src="https://silicon.ac.in/wp-content/themes/sit/assets/img/logo-7.png"
+                        style="width: auto; height: 50px;" alt="logo">
                 </a>
             </div>
             <div class="header-links">
                 <a href="#about">ABOUT US</a>
-                <a href="https://alumni.silicon.ac.in/">ALUMNI</a>
+                <a href="https://alumni.silicon.ac.in/" target="_blank">ALUMNI</a>
                 <a href="#">BHUBANESWAR CAMPUS</a>
                 <div class="search-bar">
                     <input type="text" placeholder="Search">
                     <button>
                         <svg class="search-icon" fill="white" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"/>
+                            <path
+                                d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" />
                         </svg>
                     </button>
                 </div>
             </div>
         </div>
-        
+
         <nav>
             <ul>
                 <li>
@@ -330,8 +337,104 @@
     <section class="about" id="about">
         <div class="about-content">
             <h2>About Us</h2>
-            <p>Silicon University is dedicated to fostering innovation and excellence in education. Our programs are designed to equip students with the skills and knowledge needed to thrive in a rapidly changing world.</p>
+            <p>Silicon University is dedicated to fostering innovation and excellence in education. Our programs are
+                designed to equip students with the skills and knowledge needed to thrive in a rapidly changing world.
+            </p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 mb-5">
+                    <h2><strong>Industry</strong> Collaborations</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="column-card-blk">
+                        <a href="https://www.vlsiexpert.com/" target="_blank">
+                            <img src="vlsi-expert.png" alt="">
+                        </a>
+                        <div class="block-card-detail">
+                            <svg width="349" height="14" viewBox="0 0 349 14" fill="none">
+                                <path d="M349 2.95639e-05L0 14L1.22392e-06 -9.46645e-07L349 2.95639e-05Z"
+                                    fill="#034694"></path>
+                            </svg>
+                            <h4 class="s-title-h" style="height: 56px;">VLSI Experts Pvt.Ltd., India</h4>
+
+                            <p class="s-para-h" style="height: 90px;">VLSI Experts Pvt. Ltd. is an educational group
+                                aiming to bridge the gap between the semiconductor industry and educational institutions
+                                by conducting workshops, seminars, short-term courses, guest lectures and career
+                                counseling. The collaboration will pave the way for VLSI courses for SiliconTech
+                                students to build their expertise and careers in the semiconductor industry.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="column-card-blk">
+                    <a href="">
+                        <img src="stm-micro.png" alt="">
+                    </a>
+                        <div class="block-card-detail">
+                            <svg width="349" height="14" viewBox="0 0 349 14" fill="none">
+                                <path d="M349 2.95639e-05L0 14L1.22392e-06 -9.46645e-07L349 2.95639e-05Z"
+                                    fill="#034694"></path>
+                            </svg>
+                            <h4 class="s-title-h" style="height: 56px;">STMicroelectronics Pvt.Ltd., India</h4>
+
+                            <p class="s-para-h" style="height: 90px;">ST is a global multinational electronics and
+                                semiconductor chipmaker. The collaboration with ST Micron, India, will give SiliconTech
+                                students the opportunity to work on ST Micron defined projects to design building blocks
+                                for semiconductor chips, commonly called as IPs or Semiconductor Libraries.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="column-card-blk">
+                        <a href="">
+                            <img src="stl.png" alt="">
+                        </a>
+
+                        <div class="block-card-detail">
+                            <svg width="349" height="14" viewBox="0 0 349 14" fill="none">
+                                <path d="M349 2.95639e-05L0 14L1.22392e-06 -9.46645e-07L349 2.95639e-05Z"
+                                    fill="#034694"></path>
+                            </svg>
+                            <h4 class="s-title-h" style="height: 56px;">Silicon Tech Lab Pvt.Ltd., India</h4>
+
+                            <p class="s-para-h" style="height: 90px;">The Silicon Tech Lab (STL) builds products and
+                                solutions in cloud computing, mobility and data analytics. The collaboration primarily
+                                seeks to incubate Silicon Tech Lab at Silicons’ Business Incubator creating
+                                opportunities for faculty and students to work on new products and technologies in
+                                education, health care and energy utility. They will provide consulting services to
+                                enterprises in manpower cultivation, financing, information provision and operational
+                                management.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="column-card-blk">
+                        <a href="">
+                            <img src="sevya.png" alt="">
+                        </a>
+
+                        <div class="block-card-detail">
+                            <svg width="349" height="14" viewBox="0 0 349 14" fill="none">
+                                <path d="M349 2.95639e-05L0 14L1.22392e-06 -9.46645e-07L349 2.95639e-05Z"
+                                    fill="#034694"></path>
+                            </svg>
+                            <h4 class="s-title-h" style="height: 56px;">Sevya Multimedia Technologies Pvt.Ltd., India
+                            </h4>
+
+                            <p class="s-para-h" style="height: 90px;">Sevya develops and delivers best-in-class,
+                                scalable and maintainable products and solutions for web, mobile and enterprise
+                                including VLSI and Embedded System Design Services. SiliconTec will mentor and train new
+                                employees for Sevya in the area of CMOS VLSI design and open-source CAD flow
+                                initiatives.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 </body>
+
 </html>
